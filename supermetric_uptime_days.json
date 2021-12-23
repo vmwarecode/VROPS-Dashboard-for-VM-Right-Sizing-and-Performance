@@ -1,0 +1,12 @@
+{"a4e11831-c66d-44ef-a369-d77ef410fec1": {
+   "resourceKinds": [{
+      "resourceKindKey": "VirtualMachine",
+      "adapterKindKey": "VMWARE"
+   }],
+   "modificationTime": 1624536068126,
+   "name": "uptime_in_days",
+   "formula": "((${this, metric=sys|osUptime_latest}/60)/60)/24",
+   "description": "",
+   "unitId": "",
+   "modifiedBy": "e2c32cb9-aad1-4e9c-9071-1c25032331c4"
+}}
